@@ -1,33 +1,12 @@
 Planeta;Color;Masa (10^24kg);Longitud del Día (horas);Distancia del Sol (10^6 km);Temperatura Media (C);¿Anillos?;Composición
 Mercurio;Gris;0.33;42226;57.9;167;No;Roca,Metal
 Venus;Marrón,Gris;4.87;2802;108.2;464;No;Roca,Metal
+Planeta Incorrecto 1;Marrón;masa;153;5.906;-225;Sí;Roca,Hielo
 Tierra;Azul,Marrón,Verde,Blanco;5.97;24;149.6;15;No;Roca,Agua,Aire
 Marte;Rojo,Marrón,Beige;0.642;247;228;-65;No;Roca,Hielo
+Planeta Incorrecto 2;Marrón;87;153;5.906;-225;Hola;Roca,Hielo
 Júpiter;Marrón,Naranja,Beige,Franjas de Nubes Blancas;1898;99;778.5;-110;Sí;Gas,Líquido
 Saturno;Dorado,Marrón,Azul-Gris;568;107;1.432;-140;Sí;Gas,Líquido
+Planeta Incorrecto 3
 Urano;Azul-Verde;86.8;172;2.867;-195;Sí;Gas,Hielo
 Neptuno;Azul;102;161;4.515;-200;Sí;Gas,Hielo
-
-ArrayList<String> col1 = new ArrayList<String>();
-col1.add("Gris");
-ArrayList<Compuesto> com1 = new ArrayList<Compuesto>();
-com1.add(Compuesto.ROCA);
-com1.add(Compuesto.METAL);
-Planeta p1 = new Planeta("Mercurio", col1, 0.33, 42226, 57.9, 167, false, com1);
-
-ArrayList<String> col2 = new ArrayList<String>();
-col2.add("Marrón");
-col2.add("Gris");
-ArrayList<Compuesto> com2 = new ArrayList<Compuesto>();
-com2.add(Compuesto.ROCA);
-com2.add(Compuesto.METAL);
-Planeta p2 = new Planeta("Venus", col2, 4.87, 2802, 108.2, 464, false, com2);
-
-ArrayList<String> col3 = new ArrayList<String>();
-col3.add("Marrón");
-ArrayList<Compuesto> com3 = new ArrayList<Compuesto>();
-com3.add(Compuesto.ROCA);
-com3.add(Compuesto.HIELO);
-Planeta p3 = new Planeta("Planeta Incorrecto 1", col3, 153, 5.906, -225, true, com3);
-
-ArrayList<String> col4 = new ArrayList<String>();
